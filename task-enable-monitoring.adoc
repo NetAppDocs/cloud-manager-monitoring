@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: task-getting-started-monitoring.html
+permalink: task-enable-monitoring.html
 keywords: monitoring, cloud insights, tenant, acquisition unit, iops, throughput, latency, performance, cloud volumes ontap performance, volume performance
 summary: Complete a few steps to start monitoring Cloud Volumes ONTAP performance.
 ---
 
-= Monitoring Cloud Volumes ONTAP
+= Start monitoring volume performance
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -14,29 +14,6 @@ summary: Complete a few steps to start monitoring Cloud Volumes ONTAP performanc
 
 [.lead]
 Complete a few steps to start monitoring Cloud Volumes ONTAP performance.
-
-== Quick start
-
-Get started quickly by following these steps or scroll down to the remaining sections for full details.
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Verify support for your configuration
-
-[role="quick-margin-list"]
-* You need a Cloud Volumes ONTAP system running in AWS or Azure.
-* For AWS, you need a Connector running version 3.8.4 or later.
-* For Azure, you need a Connector running version 3.9.3 or later.
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Enable Monitoring on your new or existing system
-
-[role="quick-margin-list"]
-* New working environments: Be sure to keep Monitoring enabled when you create the working environment (it’s enabled by default).
-
-* Existing working environments: Select a working environment and click *Start Monitoring*.
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] View performance data
-
-[role="quick-margin-para"]
-Click *Monitoring* and view performance data for your volumes.
 
 == Requirements
 
@@ -109,58 +86,3 @@ Enable monitoring at any time from the working environment.
 . In the pane on the right, click *Start Monitoring*.
 +
 image:screenshot_enable_monitoring.gif[[A screenshot that shows the Start Monitoring icon which is available on the Canvas page after you select a working environment.]
-
-== Monitoring your volumes
-
-Monitor performance by viewing IOPS, throughput, and latency for each of your volumes.
-
-.Steps
-
-. At the top of Cloud Manager, click *Monitoring*.
-
-. Filter the contents of the dashboard to get the information that you need.
-+
-* Select a specific working environment.
-* Select a different timeframe.
-* Select a specific SVM.
-* Search for a specific volume.
-+
-The following image highlights each of these options:
-+
-image:screenshot_filter_options.gif[A screenshot of the Monitoring tab that shows the options that you can use to filter the contents of the dashboard.]
-
-. Click a volume in the table to expand the row and view a timeline for IOPS, throughput, and latency.
-+
-image:screenshot_vol_performance.gif[A screenshot of the performance data for a volume.]
-
-. Use the data to identify performance issues to minimize impact on your users and apps.
-
-== Getting more information from Cloud Insights
-
-The Monitoring tab in Cloud Manager provides basic performance data for your volumes. You can go to the Cloud Insights web interface from your browser to perform more in-depth monitoring and to configure alerts for your Cloud Volumes ONTAP systems.
-
-.Steps
-
-. At the top of Cloud Manager, click *Monitoring*.
-
-. Click the *Cloud Insights* link.
-+
-image:screenshot_cloud_insights.gif[A screenshot that shows the Cloud Insights link that is available in the top right of the Monitoring tab.]
-
-.Result
-
-Cloud Insights open in a new browser tab. If you need help, refer to the https://docs.netapp.com/us-en/cloudinsights[Cloud Insights documentation^].
-
-== Disabling monitoring
-
-If you no longer want to monitor Cloud Volumes ONTAP, you can disable the service at any time.
-
-NOTE: If you disable monitoring from each of your working environments, you'll need to delete the virtual machine instance yourself. The instance is named _AcquisitionUnit_ with a generated hash (UUID) concatenated to it. For example: _AcquisitionUnit-FAN7FqeH_
-
-.Steps
-
-. At the top of Cloud Manager, click *Canvas*.
-
-. Select a working environment.
-
-. In the pane on the right, click the image:screenshot_gallery_options.gif[A screenshot of the options icon that appears in the Services pane after selecting a working environment] icon and select *Deactivate Scan*.

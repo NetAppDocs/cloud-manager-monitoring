@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: task-disable-monitoring.html
+keywords: disable monitoring, stop monitoring, disable, deactivate
+summary: If you no longer want to monitor Cloud Volumes ONTAP, you can disable the Monitoring service at any time.
+---
+
+= Disable the Monitoring service
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+If you no longer want to monitor Cloud Volumes ONTAP, you can disable the Monitoring service at any time.
+
+If you disable monitoring from each of your working environments, you'll need to delete the virtual machine instance yourself. The instance is named _AcquisitionUnit_ with a generated hash (UUID) concatenated to it. For example: _AcquisitionUnit-FAN7FqeH_
+
+.Steps
+
+. At the top of Cloud Manager, click *Canvas*.
+
+. Select a working environment.
+
+. In the pane on the right, click the image:screenshot_gallery_options.gif[A screenshot of the options icon that appears in the Services pane after selecting a working environment] icon and select *Deactivate Scan*.
