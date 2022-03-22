@@ -45,4 +45,4 @@ link:task-enable-monitoring.html[Learn more about enabling the Monitoring servic
 Click *Monitoring* and view performance data for your volumes.
 
 [role="quick-margin-para"]
-link:task-set-up-azure-ad.html[Learn more about monitoring performance].
+link:task-monitor-volumes.html[Learn more about monitoring performance].
