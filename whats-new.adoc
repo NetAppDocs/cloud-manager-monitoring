@@ -1,0 +1,52 @@
+---
+sidebar: sidebar
+permalink: whats-new.html
+keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes
+summary: Learn what's new with the Monitoring service.
+---
+
+= What's new
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Learn what's new with the Monitoring service.
+
+//tag::whats-new[]
+== 1 Aug 2021
+
+=== Change to Acquisition Unit name
+
+We changed the default name of the Acquisition Unit instance to CloudInsights-AU-_UUID_ so that the name is more descriptive (the UUID is a generated hash).
+
+Cloud Manager deploys this instance when you enable the Monitoring service on a Cloud Volumes ONTAP working environment.
+
+== 5 May 2021
+
+=== Support for existing tenants
+
+You can now enable the Monitoring service on a Cloud Volumes ONTAP working environment even if you have an existing Cloud Insights tenant.
+
+=== Free Trial transition
+
+When you enable the Monitoring service, Cloud Manager sets up a free trial of Cloud Insights. On the 29th day, your plan now automatically transitions from the Trial Version to the https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions[Basic Edition^].
+
+== 9 Feb 2021
+
+=== Support in Azure
+
+The Monitoring service is now supported with Cloud Volumes ONTAP for Azure.
+
+=== Support in Government regions
+
+The Monitoring service is also supported in Government regions in AWS and Azure.
+//end::whats-new[]
+
+== 10 May 2020
+
+=== Introducing the Monitoring service
+
+By leveraging NetApp’s Cloud Insights service, Cloud Manager gives you insights into the health and performance of your Cloud Volumes ONTAP instances and helps you troubleshoot and optimize the performance of your cloud storage environment.
