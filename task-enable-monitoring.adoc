@@ -5,7 +5,7 @@ keywords: monitoring, cloud insights, tenant, acquisition unit, iops, throughput
 summary: Complete a few steps to start monitoring Cloud Volumes ONTAP performance.
 ---
 
-= Start monitoring volume performance
+= Enable monitoring
 :hardbreaks:
 :nofooter:
 :icons: font
