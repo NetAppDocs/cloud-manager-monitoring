@@ -20,7 +20,7 @@ sidebar:
           url: /concept-monitoring.html
         - title: Quick start
           url: /task-quick-start.html
-        - title: Start monitoring volume performance
+        - title: Enable monitoring
           url: /task-enable-monitoring.html
     - title: Use the Monitoring service
       entries:
