@@ -16,7 +16,7 @@ summary: Learn what's new with the Monitoring service.
 Learn what's new with the Monitoring service.
 
 //tag::whats-new[]
-== 1 Aug 2021
+== 1 August 2021
 
 === Change to Acquisition Unit name
 
@@ -34,7 +34,7 @@ You can now enable the Monitoring service on a Cloud Volumes ONTAP working envir
 
 When you enable the Monitoring service, Cloud Manager sets up a free trial of Cloud Insights. On the 29th day, your plan now automatically transitions from the Trial Version to the https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions[Basic Edition^].
 
-== 9 Feb 2021
+== 9 February 2021
 
 === Support in Azure
 
